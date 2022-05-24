@@ -29,16 +29,19 @@ nav {
     font-family: system-ui, Helvetica, Arial, sans-serif;
     background: #024383;
     height: 8vh;
+    text-decoration: none;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
+    text-decoration: none;
 }
 
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    text-decoration: none;
 }
 
 .mobile-menu {
@@ -70,10 +73,12 @@ nav {
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        text-decoration: none;
     }
     .nav-list li {
         margin-left: 0;
         opacity: 0;
+        text-decoration: none;
     }
     .mobile-menu {
         display: block;
@@ -82,6 +87,7 @@ nav {
 
 .nav-list.active {
     transform: translateX(0);
+    text-decoration: none;
 }
 
 @keyframes navLinkFade {
@@ -228,6 +234,7 @@ img {
 
 .jumbotron {
     background-color: #ebebeb;
+    align-self: center;
 }
 
 button {
@@ -236,4 +243,9 @@ button {
     width: 14%;
     height: 30px;
     border-radius: 6px;
+}
+
+h4 {
+    color: #b80a0a;
+    font-weight: bold;
 }
